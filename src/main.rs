@@ -1,6 +1,8 @@
 mod guess;
-use guess::guess;
+mod variables;
 
 fn main() {
-    guess();
+    // guess::guess();
+
+    variables::start();
 }
